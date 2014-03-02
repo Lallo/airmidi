@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="instrumentsValuesArray">
+
+        <item>1</item>
+        <item>10</item>
+        <item>25</item>
+        <item>48</item>
+        <item>14</item>
+        <item>12</item>
+        <item>80</item>
+        <item>57</item>
+</integer-array>  
+    
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <CheckBox
+        android:id="@+id/checkActive"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:text="Attivo" />
+
+    <Spinner
+        android:id="@+id/spinnerInstrument"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/buttonBeat"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Beat" android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/toneView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="-"
+        android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="60dp"/>
+
+    <TextView
+        android:id="@+id/lastBeat"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_horizontal"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbarSize="10dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbars="vertical"
+        android:textSize="20dp" />
+
+</LinearLayout>

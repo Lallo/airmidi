@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Airmidi</string>
+       <string-array name="instrumentsStringArray">
+        <item name="Acoustic Grand Piano">Acoustic Grand Piano</item>
+        <item name="Glockenspiel">Glockenspiel</item>
+        <item name="Acoustic Guitar (nylon)">Acoustic Guitar (nylon)</item>
+        <item name="Orchestral Harp">Orchestral Harp</item>
+        <item name="Xylophone">Xylophone</item>
+        <item name="Vibraphone">Vibraphone</item>
+        <item name="Ocarina">Ocarina</item>
+        <item name="Trumpet">Trumpet</item>
+    </string-array>  
+    
+</resources>
